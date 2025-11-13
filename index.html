@@ -19,5 +19,18 @@
         <a href="kontakt.html" class="nav-button">Kontakt</a>
         <a href="projekty.html" class="nav-button">Projekty</a>
     </nav>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            alert('Witaj na mojej stronie');
+        }) 
+        const button = document.querySelector('.nav-button');
+        button.addEventListener('mouseenter', function() {
+            this.style.backgroundColor = '#d60a0a';
+        })
+        button.addEventListener('mouseleave', function() {
+            this.style.backgroundColor = '#000000';
+        }
+    )
+    </script>
 </body>
 </html>

@@ -71,18 +71,8 @@ h2 {
 }
 
 h1 {
-    
-     background-color: rgba(0, 0, 0, 0.85);
-    color: rgba(161, 20, 20, 0.815);
-    text-decoration: none;
-    padding: 18px 50px;
-    border-radius: 50px;
-    font-size: 1.2rem;
-    font-weight: 500;
-    transition: all 0.3 ease;
-    box-shadow: 0 4px 15px rgba(250, 2, 2, 0.8);
-    min-width: 180px;
-    text-align: center;
+    color: white;
+   
 }
 
 h3 {
@@ -103,5 +93,18 @@ h3 {
 h4 {
     color: #dfe4d2;
     font-size: 50px;
+    text-align: center;
+}
+.profile-name {
+     background-color: rgba(0, 0, 0, 0.85);
+    color: rgba(161, 20, 20, 0.815);
+    text-decoration: none;
+    padding: 18px 50px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3 ease;
+    box-shadow: 0 4px 15px rgba(250, 2, 2, 0.8);
+    min-width: 180px;
     text-align: center;
 }
