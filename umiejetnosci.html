@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje umiejetnosci</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: grid;
+            grid-template-areas: 
+                "header header"
+                "aside main"
+                "footer footer";
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: auto 1fr auto;
+        }
+
+        header {
+            grid-area: header;
+            background: #d10e0e;
+            color: aqua;
+            padding: 15px;
+        }
+
+        header nav a {
+            color: aqua;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        aside {
+            grid-area: aside;
+            background: #d10e0e;
+            padding: 20px;
+        }
+
+        main {
+            grid-area: main;
+            padding: 20px;
+        }
+
+        footer {
+            grid-area: footer;
+            background: #d10e0e;
+            color: aqua;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .umiejetnosci-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .umiejetnosc-badge {
+            padding: 10px 15px;
+            background: #14adf5;
+            border-radius: 20px;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="kontakt.html" class="nav-button">Kontakt</a>
+        <a href="projekty.html" class="nav-button">Projekty</a>
+    </nav>
+</header>
+
+<aside>
+    <h3>Menu boczne</h3>
+    <p>Pozdrawiam</p>
+</aside>
+
+<main>
+    <h1>Moje umiejetnosci</h1>
+    <p>Na tej stronie znajdziesz moje umiejetnosci</p>
+
+    <section class="umiejetnosci-container">
+        <div class="umiejetnosc-badge">HTML</div>
+        <div class="umiejetnosc-badge">CSS</div>
+        <div class="umiejetnosc-badge">JavaScript</div>
+        <div class="umiejetnosc-badge">Git</div>
+        <div class="umiejetnosc-badge">Testowanie</div>
+        <div class="umiejetnosc-badge">React</div>
+    </section>
+
+    <section>
+        <h2>Róznice miedzy flexbox a css grid</h2>
+        <ul>
+            <li>Flexbox dzialaja w jednym wymiarze podczas gdy grid dziala w dwoch wymiarach</li>
+            <li>Grid pozwala tworzyc zlozone uklady stron natomiast flexbox nadaje sie do rozmieszczania w odrerbnych pojedynczych miejscahc</li>
+       
+        </ul>
+    </section>
+</main>
+<footer>
+    <p>Moje Portfolio 20252</p>
+</footer>
+</body>
+</html>
